@@ -1,0 +1,56 @@
+{
+  "name": "human-three-vrm",
+  "version": "0.3.1",
+  "description": "Realtime VRM Humanoid Avatar Animation using Human library and ThreeJS",
+  "main": "",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "dev": "build -p development",
+    "build": "build -p production"
+  },
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladmandic/human-three-vrm/issues"
+  },
+  "homepage": "https://vladmandic.github.io/human-three-vrm/src/human-vrm.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmandic/human-three-vrm.git"
+  },
+  "keywords": [
+    "human",
+    "human-library",
+    "face-detection",
+    "body-tracking",
+    "hand-tracking",
+    "avatar",
+    "skeleton",
+    "vrm",
+    "vrm-model",
+    "tfjs",
+    "tensorflowjs"
+  ],
+  "dependencies": {
+    "@pixiv/three-vrm": "^1.0.5",
+    "@types/three": "^0.146.0",
+    "@vladmandic/build": "^0.7.14",
+    "@vladmandic/human": "^3.0.1",
+    "@vladmandic/pilogger": "^0.4.6",
+    "three": "0.146.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "esbuild": "^0.15.16",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.3"
+  }
+}
